@@ -6,7 +6,7 @@ import { LiaGrav } from "react-icons/lia"
 function App() {
   const color = "#90a1b9"
   return (
-    <div className="bg-slate-900 h-screen w-screen grid place-content-center">
+    <div className="h-screen w-screen grid place-content-center">
       <div className="flex flex-col gap-2">
         <LinkButton
           name="LINKEDIN"
@@ -16,7 +16,7 @@ function App() {
           name="GITHUB"
           logo={<VscGithub color={color} size="44" />}
         />
-        <LinkButton name="WEBSITE" logo={<LiaGrav color={color} size="55" />} />
+        <LinkButton name="WEBSITE" logo={<LiaGrav color={color} size="54" />} />
         <LinkButton
           name="STACKOVERFLOW"
           logo={<FaStackOverflow color={color} size="28" />}

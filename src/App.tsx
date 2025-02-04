@@ -4,7 +4,7 @@ import { VscGithub } from "react-icons/vsc"
 import { LiaGrav } from "react-icons/lia"
 
 function App() {
-  const color = "#90a1b9"
+  const color = "#CCD5E2"
   return (
     <div className="h-screen w-screen grid place-content-center">
       <div className="flex flex-col gap-2">
